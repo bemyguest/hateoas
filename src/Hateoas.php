@@ -2,7 +2,6 @@
 
 namespace BeMyGuest\Hateoas;
 
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\RouteCollection;
 use Illuminate\Routing\UrlGenerator;
@@ -15,6 +14,14 @@ use Illuminate\Routing\UrlGenerator;
  */
 class Hateoas
 {
+    /**
+     * @param string $key
+     * @param string $url
+     * @param string $method
+     * @param Request|null $request
+     * @return array
+     * @deprecated Use Hateoas\LinkBuilder as a dependency instead
+     */
     public static function createLink(string $key, string $url = '', $method = 'get', Request $request = null): array
     {
         $request = $request ?? Request::capture();
