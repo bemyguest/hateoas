@@ -4,6 +4,7 @@ namespace BeMyGuest\Hateoas;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\UrlGenerator;
+use Illuminate\Support\Arr;
 
 class LinkBuilder
 {
@@ -15,6 +16,7 @@ class LinkBuilder
     /** @var Request */
     private $request;
 
+    /** @var array  */
     private $requestParameters;
 
     public function __construct(UrlGenerator $urlGenerator)
@@ -39,10 +41,11 @@ class LinkBuilder
         return $new;
     }
 
-    public function createLink(string $key, string $url, $method): array
+    public function createLink(string $key, string $url, string $method): array
     {
-        $request = $this->request ? $this->request->query() : [];
-        $params = array_only($request, $this->requestParameters);
+        /** @var array $request */
+        $request = $this->request->query();
+        $params = Arr::only($request, $this->requestParameters);
 
         $url .= '?' . http_build_query($params);
 
@@ -53,7 +56,14 @@ class LinkBuilder
         ];
     }
 
-    public function createLinkFromRoute($key, $method, $route, ...$params): array
+    /**
+     * @param string $key
+     * @param string $method
+     * @param string $route
+     * @param mixed ...$params
+     * @return array
+     */
+    public function createLinkFromRoute(string $key, string $method, string $route, ...$params): array
     {
         $url = $this->urlGenerator->route($route, $params);
 
