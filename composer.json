@@ -1,0 +1,31 @@
+{
+    "name": "bemyguest/hateoas",
+    "description": "HATEOAS Link generation library",
+    "type": "library",
+    "require-dev": {
+        "vimeo/psalm": "^3.8",
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BeMyGuest",
+            "email": "tech@bemyguest.com.sg"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload" : {
+        "psr-4" : {
+	    "BeMyGuest\\Hateoas\\" : "src/"
+	},
+	"autoload-dev" : {
+	    "psr-4" : {
+	        "BeMyGuest\\Hateoas\\Tests\\": "tests"
+	    }
+        }
+    },
+    "require": {
+        "illuminate/http": "^5.8",
+        "illuminate/routing": "^5.8"
+    }
+}
