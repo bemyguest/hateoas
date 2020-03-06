@@ -25,7 +25,12 @@
         }
     },
     "require": {
-        "illuminate/http": "^5.8",
-        "illuminate/routing": "^5.8"
+        "illuminate/http": "^5.8 | ^6",
+        "illuminate/routing": "^5.8 | ^6"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.1"
+        }
     }
 }
