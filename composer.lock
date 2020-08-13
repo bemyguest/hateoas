@@ -240,16 +240,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v6.18.0",
+            "version": "v6.18.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "ef8dd3ef3acbbb76dcd13fa3d253fceba4394660"
+                "reference": "521c2a92a2958cb49d3b8c224b4528bcb3199657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/ef8dd3ef3acbbb76dcd13fa3d253fceba4394660",
-                "reference": "ef8dd3ef3acbbb76dcd13fa3d253fceba4394660",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/521c2a92a2958cb49d3b8c224b4528bcb3199657",
+                "reference": "521c2a92a2958cb49d3b8c224b4528bcb3199657",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +286,7 @@
             ],
             "description": "The Illuminate Http package.",
             "homepage": "https://laravel.com",
-            "time": "2020-02-28T14:15:59+00:00"
+            "time": "2020-05-18T21:39:27+00:00"
         },
         {
             "name": "illuminate/pipeline",
