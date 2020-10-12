@@ -143,16 +143,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.35",
+            "version": "v6.18.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "d2298fbc8b4f67d8c09868877124fcf24215fe96"
+                "reference": "b6c967359f3461ac763da12d995c72358228ae34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/d2298fbc8b4f67d8c09868877124fcf24215fe96",
-                "reference": "d2298fbc8b4f67d8c09868877124fcf24215fe96",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b6c967359f3461ac763da12d995c72358228ae34",
+                "reference": "b6c967359f3461ac763da12d995c72358228ae34",
                 "shasum": ""
             },
             "require": {
@@ -183,20 +183,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2020-07-19T12:38:12+00:00"
+            "time": "2020-08-28T11:11:49+00:00"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.18.35",
+            "version": "v6.18.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "0ed895c85d65eec8bba35e8bb45f33488c58ec2b"
+                "reference": "fa327c07771f872d606e753ef1765252fd843544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/0ed895c85d65eec8bba35e8bb45f33488c58ec2b",
-                "reference": "0ed895c85d65eec8bba35e8bb45f33488c58ec2b",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/fa327c07771f872d606e753ef1765252fd843544",
+                "reference": "fa327c07771f872d606e753ef1765252fd843544",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "https://laravel.com",
-            "time": "2020-07-24T09:15:49+00:00"
+            "time": "2020-09-23T07:35:10+00:00"
         },
         {
             "name": "illuminate/http",
@@ -393,16 +393,16 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.18.35",
+            "version": "v6.18.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
-                "reference": "62704d18c37138e979c581c96f443b85d7e7ff8d"
+                "reference": "92c7eede259fd6baf4f0da9765def0238480b086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/session/zipball/62704d18c37138e979c581c96f443b85d7e7ff8d",
-                "reference": "62704d18c37138e979c581c96f443b85d7e7ff8d",
+                "url": "https://api.github.com/repos/illuminate/session/zipball/92c7eede259fd6baf4f0da9765def0238480b086",
+                "reference": "92c7eede259fd6baf4f0da9765def0238480b086",
                 "shasum": ""
             },
             "require": {
@@ -440,20 +440,20 @@
             ],
             "description": "The Illuminate Session package.",
             "homepage": "https://laravel.com",
-            "time": "2020-01-07T13:47:03+00:00"
+            "time": "2020-08-26T13:10:46+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.35",
+            "version": "v6.18.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "19eef74e9534157ac5de00be431915a1c07edb6e"
+                "reference": "6fb2038c4422dfe174867b45f45aa4b81c9e3f30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/19eef74e9534157ac5de00be431915a1c07edb6e",
-                "reference": "19eef74e9534157ac5de00be431915a1c07edb6e",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/6fb2038c4422dfe174867b45f45aa4b81c9e3f30",
+                "reference": "6fb2038c4422dfe174867b45f45aa4b81c9e3f30",
                 "shasum": ""
             },
             "require": {
@@ -501,7 +501,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-06T13:53:42+00:00"
+            "time": "2020-10-02T20:10:17+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1086,16 +1086,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.11",
+            "version": "v4.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "2727aa35fddfada1dd37599948528e9b152eb742"
+                "reference": "60d08560f9aa72997c44077c40d47aa28a963230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/2727aa35fddfada1dd37599948528e9b152eb742",
-                "reference": "2727aa35fddfada1dd37599948528e9b152eb742",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/60d08560f9aa72997c44077c40d47aa28a963230",
+                "reference": "60d08560f9aa72997c44077c40d47aa28a963230",
                 "shasum": ""
             },
             "require": {
@@ -1145,7 +1145,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-05T09:39:30+00:00"
+            "time": "2020-10-02T07:34:48+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
