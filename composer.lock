@@ -290,16 +290,16 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.35",
+            "version": "v6.18.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
-                "reference": "16d1cdcd2565b594a9644678acdaef70630e8d23"
+                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/16d1cdcd2565b594a9644678acdaef70630e8d23",
-                "reference": "16d1cdcd2565b594a9644678acdaef70630e8d23",
+                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/521567a1ea206535ab18c2b575026b8f1373e44f",
+                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f",
                 "shasum": ""
             },
             "require": {
@@ -331,7 +331,7 @@
             ],
             "description": "The Illuminate Pipeline package.",
             "homepage": "https://laravel.com",
-            "time": "2020-02-25T13:56:58+00:00"
+            "time": "2020-08-13T14:33:00+00:00"
         },
         {
             "name": "illuminate/routing",
