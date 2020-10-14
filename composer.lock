@@ -99,7 +99,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -143,7 +143,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -187,7 +187,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -290,23 +290,23 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
-                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f"
+                "reference": "2bbdad280e5d6ed20c6145aabc8a61913641c4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/521567a1ea206535ab18c2b575026b8f1373e44f",
-                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f",
+                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/2bbdad280e5d6ed20c6145aabc8a61913641c4a7",
+                "reference": "2bbdad280e5d6ed20c6145aabc8a61913641c4a7",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^6.0",
                 "illuminate/support": "^6.0",
                 "php": "^7.2",
-                "symfony/debug": "^4.3"
+                "symfony/debug": "^4.3.4"
             },
             "type": "library",
             "extra": {
@@ -331,11 +331,11 @@
             ],
             "description": "The Illuminate Pipeline package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-10-12T00:30:01+00:00"
         },
         {
             "name": "illuminate/routing",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
@@ -393,7 +393,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -444,7 +444,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.42",
+            "version": "v6.18.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
