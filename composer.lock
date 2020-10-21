@@ -99,16 +99,16 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.42",
+            "version": "v6.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "fa2841685d4cc12207318051ee4154166419a062"
+                "reference": "f62cdc2d6e1dd4070da44928f6814f1c4169603b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/fa2841685d4cc12207318051ee4154166419a062",
-                "reference": "fa2841685d4cc12207318051ee4154166419a062",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/f62cdc2d6e1dd4070da44928f6814f1c4169603b",
+                "reference": "f62cdc2d6e1dd4070da44928f6814f1c4169603b",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-10-19T13:45:46+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -290,23 +290,23 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.42",
+            "version": "v6.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
-                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f"
+                "reference": "2bbdad280e5d6ed20c6145aabc8a61913641c4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/521567a1ea206535ab18c2b575026b8f1373e44f",
-                "reference": "521567a1ea206535ab18c2b575026b8f1373e44f",
+                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/2bbdad280e5d6ed20c6145aabc8a61913641c4a7",
+                "reference": "2bbdad280e5d6ed20c6145aabc8a61913641c4a7",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^6.0",
                 "illuminate/support": "^6.0",
                 "php": "^7.2",
-                "symfony/debug": "^4.3"
+                "symfony/debug": "^4.3.4"
             },
             "type": "library",
             "extra": {
@@ -331,20 +331,20 @@
             ],
             "description": "The Illuminate Pipeline package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-10-12T00:30:01+00:00"
         },
         {
             "name": "illuminate/routing",
-            "version": "v6.18.42",
+            "version": "v6.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
-                "reference": "ce6bbc56d404d22428c8f29e494a890c0973c84b"
+                "reference": "2e58579f6bd6a740fc0cad706c3675a8474a3848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/routing/zipball/ce6bbc56d404d22428c8f29e494a890c0973c84b",
-                "reference": "ce6bbc56d404d22428c8f29e494a890c0973c84b",
+                "url": "https://api.github.com/repos/illuminate/routing/zipball/2e58579f6bd6a740fc0cad706c3675a8474a3848",
+                "reference": "2e58579f6bd6a740fc0cad706c3675a8474a3848",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
             ],
             "description": "The Illuminate Routing package.",
             "homepage": "https://laravel.com",
-            "time": "2020-10-05T12:49:08+00:00"
+            "time": "2020-10-19T13:45:46+00:00"
         },
         {
             "name": "illuminate/session",
