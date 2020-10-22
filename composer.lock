@@ -444,7 +444,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.19.0",
+            "version": "v6.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
