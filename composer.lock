@@ -290,7 +290,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.19.0",
+            "version": "v6.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -335,7 +335,7 @@
         },
         {
             "name": "illuminate/routing",
-            "version": "v6.19.0",
+            "version": "v6.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
