@@ -3,8 +3,8 @@
     "description": "HATEOAS Link generation library",
     "type": "library",
     "require-dev": {
-        "vimeo/psalm": "^3.8",
-        "phpunit/phpunit": "^8.5"
+        "vimeo/psalm": "^3.8.4",
+        "phpunit/phpunit": "^9.3"
     },
     "license": "MIT",
     "authors": [
@@ -25,12 +25,8 @@
         }
     },
     "require": {
-        "illuminate/http": "^5.8 |^6|^7.0",
-        "illuminate/routing": "^5.8 |^6|^7.0"
-    },
-    "config": {
-        "platform": {
-            "php": "7.2.1"
-        }
+        "php": "^7.4|^8.0",
+        "illuminate/http": "^6.0|^7.0|^8.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0"
     }
 }
